@@ -164,4 +164,11 @@ public class GestionProduitTest {
 
         return result;
     }
+
+    @Test
+    @Order(2)
+    public void lireProduitTest() {
+        int id = 1;
+        produit = gp.lireProduit(id);
+    }
 }

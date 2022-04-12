@@ -32,4 +32,10 @@ public class GestionProduit {
         nbre = bdManager.setDataInBd(query);
         return nbre;
     }
+
+    public Produit lireProduit(int id) {
+        Produit result = null;
+
+        return result;
+    }
 }
